@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XKCD Comic Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>XKCD Comic Viewer</h1>
+            <div class="navigation">
+                <button id="prevBtn">Previous</button>
+                <button id="randomBtn">Random</button>
+                <button id="nextBtn">Next</button>
+            </div>
+        </header>
+        
+        <main class="comic-container">
+            <div id="loading" class="loading">Loading...</div>
+            <div id="comic">
+                <h2 id="title"></h2>
+                <div class="comic-number">#<span id="number"></span></div>
+                <div class="comic-frame">
+                    <img id="comic-image" src="" alt="">
+                </div>
+                <p id="alt-text" class="alt-text"></p>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
