@@ -1,6 +1,6 @@
 # XKCD Comic Viewer
 
-XKCD Comic Viewer is a simple web application that allows users to browse through XKCD comics. Users can view the latest comic, navigate to previous or next comics, or load a random comic.
+XKCD Comic Viewer is a simple web application that allows users to browse through XKCD comics. Users can view the latest comic, navigate to previous or next comics, or load a random comic. This mini project was built as a part of MLH Global Hack Week(GHW): APIs 😊
 
 ## Features
 
